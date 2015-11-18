@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationsInformation>
+  <Configuration ID="1">
+    <Options>
+      <Option Title="Select test option" Lable="0: Interactive Short; 1: Auto Short; 2: Interactive Full; 3: Auto Full" Text="2" />
+      <Option Title="Select Power Cycle Method" Lable="0: ULINK Power Control for SATA/SAS Device; 1: ULINK Power Control for PCIe Device; 2: Others" Text="0" />
+      <Option Title="Standby Immediate before Power Cycle?" Lable="0: NO; 1: YES" Text="0" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="Running Time in hours?" Text="25" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="Select commands for test (0: both DMA and NCQ; 1: DMA only; 2: NCQ only)" Text="1" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="Max. # of Loop for DMA Test" Text="1" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="Max. # of Loop for NCQ Test" Text="1" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="FLUSH for GoodData? (0:No, 1:Yes)" Text="0" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="Power On Ready (POR) Timeout Value (in second)" Text="8" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="Display command info during Good Data Writing? (0:No, 1:Only WrCmd, 2:All Cmds)" Text="0" />
+      <Option Title="Power Interruption Test with Data Compare" Lable="Display command info during powering off? (0:No, 1:Only WrCmd, 2:All Cmds)" Text="0" />
+    </Options>
+  </Configuration>
+  <Configuration ID="2">
+    <Options>
+      <Option Title="Select test option" Lable="0: Interactive Short; 1: Auto Short; 2: Interactive Full; 3: Auto Full" Text="3" />
+      <Option Title="Select Power Cycle Method" Lable="0: ULINK Power Control for SATA/SAS Device; 1: ULINK Power Control for PCIe Device; 2: Others" Text="0" />
+      <Option Title="Standby Immediate before Power Cycle?" Lable="0: NO; 1: YES" Text="0" />
+    </Options>
+  </Configuration>
+  <Configuration ID="3">
+    <Options>
+      <Option Title="Select test option" Lable="0: Interactive w/Brief; 1: Auto w/Brief; 2: Interactive w/Detail; 3: Auto w/Detail; 4: Halt when Failed (default: 4)" Text="0" />
+      <Option Title="Select Power Cycle Method" Lable="0: ULINK Power Control for SATA/SAS Device; 1: ULINK Power Control for PCIe Device; 2: Others" Text="0" />
+      <Option Title="Standby Immediate before Power Cycle?" Lable="0: NO; 1: YES" Text="0" />
+      <Option Title="NCQ" Lable="Please select the valid test case ID in the range [ 0 :8 ]:" Text="0" />
+    </Options>
+  </Configuration>
+</ConfigurationsInformation>
